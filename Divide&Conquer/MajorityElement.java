@@ -26,7 +26,7 @@ public class MajorityElement{
         return -1;
     }
     public static void main(String args[]){
-        int arr[]={7,7,5,5};
+        int arr[]={7,7,5,5,7,5,1,5,7,5,5,7,7,5,5,5,5};
         int element=isExist(arr);
         if(element==-1){
             System.out.print("Majority element doesnt exist");
